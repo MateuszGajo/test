@@ -1,0 +1,27 @@
+{
+  "name": "zajecia",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"parcel build index.html --dist-dir docs",
+    "dev":"parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateuszGajo/pwi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateuszGajo/pwi/issues"
+  },
+  "homepage": "https://github.com/MateuszGajo/pwi#readme",
+  "dependencies": {
+    "parcel": "^2.3.2"
+  }
+}
