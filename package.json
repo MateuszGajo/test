@@ -7,8 +7,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"parcel build index.html --dist-dir docs",
-    "dev":"parcel index.html"
+    "build": "parcel build index.html --dist-dir docs",
+    "dev": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,26 @@
   },
   "homepage": "https://github.com/MateuszGajo/pwi#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@parcel/babel-preset-env": "^2.3.2",
     "parcel": "^2.3.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.2"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {
+        "overrideBrowserslist": [
+          "> 1%",
+          "last 4 versions",
+          "ie >= 9"
+        ]
+      }
+    }
   }
 }

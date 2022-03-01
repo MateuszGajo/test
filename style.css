@@ -1,0 +1,6 @@
+div {
+    width: 700px;
+    aspect-ratio: 16 / 9;
+    background: rgb(72, 170, 137);
+    transition:all 4s ease
+  }

@@ -1,0 +1,1 @@
+{"mappings":"AAAA,IAEI,iBAAoB,CACpB,kBAA6B,CAC7B,8BAAqB,CAArB,yBAAqB,CAArB,sBAAA,CAHA,WAIF","sources":["style.css"],"sourcesContent":["div {\r\n    width: 700px;\r\n    aspect-ratio: 16 / 9;\r\n    background: rgb(72, 170, 137);\r\n    transition:all 4s ease\r\n  }"],"names":[],"version":3,"file":"index.1220dcd5.css.map"}
