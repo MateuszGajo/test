@@ -139,3 +139,12 @@ html {
   margin-top: 0.8rem;
   color: #a1a1a1;
 }
+
+@supports not (gap: 10px) {
+  .about__list__item:not(:first-child) {
+    margin-left: 1rem;
+  }
+  .start__item__description {
+    margin-right: 1rem;
+  }
+}
