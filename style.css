@@ -40,17 +40,22 @@ html {
 }
 
 .nav__list__item:not(:first-child) {
-  margin-left: 1.5rem;
+  margin-left: 5rem;
+}
+
+.nav__list__item:nth-of-type(2) {
+  margin-left: 2rem;
 }
 
 .nav__list__item__link {
-  color: aqua;
+  color: #009e9e;
   text-decoration: none;
   transition: color 0.2s;
+  font-size: 1.2rem;
 }
 
 .nav__list__item__link:hover {
-  color: #00cccc;
+  color: #008e8e;
 }
 
 .content-container {
@@ -87,7 +92,7 @@ html {
 
 .start__item__description__button {
   margin-top: 1rem;
-  background-color: aqua;
+  background-color: #009e9e;
   border-radius: 0.15rem;
   border-color: transparent;
   padding: 10px 20px;
@@ -99,7 +104,7 @@ html {
 }
 
 .start__item__description__button:hover {
-  background-color: #00e6e6;
+  background-color: #008e8e;
 }
 
 .start__item__photo {
