@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Super fajna strona" />
+    <meta name="keywords" content="HTML, CSS," />
+    <meta name="author" content="Ja" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/memoryGame.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="container__title">MEMORY GAME</h1>
+      <div class="container__difficulty">
+        <h2 class="container__difficulty__title">Poziom trudności</h2>
+        <button
+          class="container__difficulty__type container__difficulty__type--easy"
+          data-active
+          data-type="easy"
+        >
+          Łatwy
+        </button>
+        <button
+          class="container__difficulty__type container__difficulty__type--medium"
+          data-type="medium"
+        >
+          Średni
+        </button>
+        <button
+          class="container__difficulty__type container__difficulty__type--hard"
+          data-type="hard"
+        >
+          Trudny
+        </button>
+      </div>
+      <section class="container__game"></section>
+    </div>
+    <script src="../js/memoryGame/main.js" type="module"></script>
+  </body>
+</html>

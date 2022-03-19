@@ -5,6 +5,7 @@
 }
 
 .container {
+  position:relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,12 +13,43 @@
   height: 100vh;
 }
 
+.container__difficulty{
+  position:absolute;
+  display:flex;
+  right:5%;
+  top:5%;
+}
+
+
+.container__difficulty__type{
+  margin-left: 1vw;
+  border:1px solid black;
+  cursor:pointer;
+  background-color: white;
+  border-radius:0.5vw;
+  width:5vw;
+  height:3.5vh;
+}
+
+
+.container__difficulty__type[data-active]{
+background-color: green;
+color:white;
+}
+
+
 .container__game {
   display: grid;
   column-gap: 1rem;
   row-gap: 1rem;
   cursor: pointer;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.container__title{
+  position: absolute;
+  top:5%;
+  left:5%;
 }
 
 .container__game__box {

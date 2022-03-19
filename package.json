@@ -7,8 +7,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build ./index.html --dist-dir docs --public-url ./",
-    "dev": "parcel index.html"
+    "build": "parcel build ./public/index.html --dist-dir docs --public-url ./",
+    "dev": "parcel public/index.html"
   },
   "repository": {
     "type": "git",
@@ -31,7 +31,8 @@
     "last 2 versions"
   ],
   "devDependencies": {
-    "autoprefixer": "^10.4.2"
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12"
   },
   "postcss": {
     "plugins": {
