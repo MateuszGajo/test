@@ -1,0 +1,1 @@
+{"mappings":"AAAA,kBAEE,2BAAsB,CAAtB,4BAAsB,CADtB,mBAAa,CAAb,mBAAa,CAAb,YAAa,CACb,yBAAsB,CAAtB,qBACF","sources":["public/styles/index.css"],"sourcesContent":[".container__links {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n"],"names":[],"version":3,"file":"index.e7f0246c.css.map"}
